@@ -19,7 +19,7 @@ locals {
 
 resource "google_compute_instance" "http_server" {
   project      = "${var.project}"
-  zone         = "europe-west1-a"
+  zone         = "europe-west1-b"
   name         = "${local.network}-apache2-instance"
   machine_type = "f1-micro"
 
@@ -40,5 +40,5 @@ resource "google_compute_instance" "http_server" {
   }
 
   # Apply the firewall rule to allow external IPs to access this instance
-  tags = ["http-server2"]
+  tags = ["http-server"]
 }

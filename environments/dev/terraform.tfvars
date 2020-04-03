@@ -1,1 +1,1 @@
-project="wam-data-app1-dev-bf67"
+project="wam-data-app2-dev-az45"

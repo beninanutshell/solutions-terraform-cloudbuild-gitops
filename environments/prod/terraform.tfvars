@@ -1,1 +1,1 @@
-project="wam-data-app1-prod-ac56"
+project="wam-demo-gitops-prod-gf5t"

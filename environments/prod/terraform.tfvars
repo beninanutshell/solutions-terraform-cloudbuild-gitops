@@ -1,1 +1,1 @@
-project="wam-demo-gitops-prod-gf5t"
+project = "wam-demo-gitops-prod-gf5t"
